@@ -1,0 +1,3 @@
+vhdl work "Sumador1Bit.vhd"
+vhdl work "ALU1Bit.vhd"
+vhdl work "ALU4Bits.vhd"

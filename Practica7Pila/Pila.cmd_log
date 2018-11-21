@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica7Pila/Pila.xst" -ofn "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica7Pila/Pila.syr" 

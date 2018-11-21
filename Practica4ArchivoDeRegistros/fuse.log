@@ -1,0 +1,33 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica4ArchivoDeRegistros/tb_ArchivoDeRegistros_isim_beh.exe -prj E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica4ArchivoDeRegistros/tb_ArchivoDeRegistros_beh.prj work.tb_ArchivoDeRegistros 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica4ArchivoDeRegistros/Registro.vhd" into library work
+Parsing VHDL file "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica4ArchivoDeRegistros/Multiplexor2a1.vhd" into library work
+Parsing VHDL file "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica4ArchivoDeRegistros/Multiplexor.vhd" into library work
+Parsing VHDL file "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica4ArchivoDeRegistros/Demultiplexor.vhd" into library work
+Parsing VHDL file "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica4ArchivoDeRegistros/BarrelShifter.vhd" into library work
+Parsing VHDL file "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica4ArchivoDeRegistros/ArchivoDeRegistros.vhd" into library work
+Parsing VHDL file "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica4ArchivoDeRegistros/tb_ArchivoDeRegistros.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package textio
+Compiling package std_logic_1164
+Compiling package std_logic_textio
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture practica4 of entity Registro [\Registro(16)\]
+Compiling architecture practica4 of entity Multiplexor [\Multiplexor(16)\]
+Compiling architecture practica4 of entity Demultiplexor [\Demultiplexor(16)\]
+Compiling architecture practica4 of entity Multiplexor2a1 [\Multiplexor2a1(16)\]
+Compiling architecture practica4 of entity BarrelShifter [\BarrelShifter(16)\]
+Compiling architecture practica4 of entity ArchivoDeRegistros [\ArchivoDeRegistros(16)\]
+Compiling architecture practica4 of entity tb_archivoderegistros
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 19 VHDL Units
+Built simulation executable E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica4ArchivoDeRegistros/tb_ArchivoDeRegistros_isim_beh.exe
+Fuse Memory Usage: 34924 KB
+Fuse CPU Usage: 1702 ms

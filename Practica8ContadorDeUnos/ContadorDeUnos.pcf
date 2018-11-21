@@ -1,0 +1,35 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Nov 19 14:44:02 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "display<6>" LOCATE = SITE "T10" LEVEL 1;
+COMP "A<0>" LOCATE = SITE "H17" LEVEL 1;
+COMP "A<1>" LOCATE = SITE "K15" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "A<2>" LOCATE = SITE "J13" LEVEL 1;
+COMP "A<3>" LOCATE = SITE "N14" LEVEL 1;
+COMP "A<4>" LOCATE = SITE "R18" LEVEL 1;
+COMP "A<5>" LOCATE = SITE "V17" LEVEL 1;
+COMP "clr" LOCATE = SITE "P18" LEVEL 1;
+COMP "A<6>" LOCATE = SITE "U17" LEVEL 1;
+COMP "A<7>" LOCATE = SITE "U16" LEVEL 1;
+COMP "A<8>" LOCATE = SITE "V16" LEVEL 1;
+COMP "D<0>" LOCATE = SITE "J15" LEVEL 1;
+COMP "D<1>" LOCATE = SITE "L16" LEVEL 1;
+COMP "D<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "ini" LOCATE = SITE "M18" LEVEL 1;
+COMP "D<3>" LOCATE = SITE "R15" LEVEL 1;
+COMP "D<4>" LOCATE = SITE "R17" LEVEL 1;
+COMP "D<5>" LOCATE = SITE "T18" LEVEL 1;
+COMP "D<6>" LOCATE = SITE "U18" LEVEL 1;
+COMP "D<7>" LOCATE = SITE "R13" LEVEL 1;
+COMP "D<8>" LOCATE = SITE "T8" LEVEL 1;
+COMP "display<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "display<1>" LOCATE = SITE "T11" LEVEL 1;
+COMP "display<2>" LOCATE = SITE "P15" LEVEL 1;
+COMP "display<3>" LOCATE = SITE "K13" LEVEL 1;
+COMP "display<4>" LOCATE = SITE "K16" LEVEL 1;
+COMP "display<5>" LOCATE = SITE "R10" LEVEL 1;
+SCHEMATIC END;
+

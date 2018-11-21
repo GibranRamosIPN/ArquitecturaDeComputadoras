@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica7Pila/tb_Pila_isim_beh.exe" -prj "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica7Pila/tb_Pila_beh.prj" "work.tb_Pila" 

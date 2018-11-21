@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Conejito\Windows\Escuela\ArquitecturaDeComputadoras\Practicas\Practica8ContadorDeUnos\ContadorDeUnos.ncd
+OUTFILE=E:\Conejito\Windows\Escuela\ArquitecturaDeComputadoras\Practicas\Practica8ContadorDeUnos\ContadorDeUnos.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=E:\Conejito\Windows\Escuela\ArquitecturaDeComputadoras\Practicas\Practica8ContadorDeUnos
+LICENSE=WebPack
+USER_INFO=210844018_0_0_757

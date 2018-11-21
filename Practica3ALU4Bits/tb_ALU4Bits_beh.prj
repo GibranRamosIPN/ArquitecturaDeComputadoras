@@ -1,0 +1,4 @@
+vhdl work "Sumador1Bit.vhd"
+vhdl work "ALU1Bit.vhd"
+vhdl work "ALU4Bits.vhd"
+vhdl work "tb_ALU4Bits.vhd"

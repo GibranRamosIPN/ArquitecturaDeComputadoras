@@ -1,0 +1,29 @@
+Command line:
+   tb_AcarreoAnticipado_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58971
+
+Thu Nov 08 23:19:59 2018
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5331.41 Meg
+
+ Total Signals          : 10
+ Total Nets             : 14
+ Total Signal Drivers   : 5
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 375
+Total Line Count : 58
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 5331.41 Meg
+
+Thu Nov 08 23:20:18 2018
+

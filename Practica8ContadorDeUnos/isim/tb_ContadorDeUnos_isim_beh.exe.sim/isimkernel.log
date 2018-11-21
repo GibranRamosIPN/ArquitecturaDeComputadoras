@@ -1,0 +1,29 @@
+Command line:
+   tb_ContadorDeUnos_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52515
+
+Mon Nov 19 14:51:48 2018
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 5331.58 Meg
+
+ Total Signals          : 51
+ Total Nets             : 75
+ Total Signal Drivers   : 19
+ Total Blocks           : 12
+ Total Primitive Blocks : 10
+ Total Processes        : 11
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 577
+Total Line Count : 86
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 5331.58 Meg
+
+Mon Nov 19 14:51:55 2018
+

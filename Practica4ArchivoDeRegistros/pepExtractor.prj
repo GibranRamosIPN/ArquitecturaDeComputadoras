@@ -1,0 +1,6 @@
+work	"ArchivoDeRegistros.vhd"
+work	"BarrelShifter.vhd"
+work	"Demultiplexor.vhd"
+work	"Multiplexor.vhd"
+work	"Multiplexor2a1.vhd"
+work	"Registro.vhd"

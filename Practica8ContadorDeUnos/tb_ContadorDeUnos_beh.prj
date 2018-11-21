@@ -1,0 +1,8 @@
+vhdl work "RegistroB.vhd"
+vhdl work "RegistroA.vhd"
+vhdl work "PackagePractica8ContadorUnos.vhd"
+vhdl work "DivisorDeFrecuencia.vhd"
+vhdl work "Decodificador.vhd"
+vhdl work "CartaASM.vhd"
+vhdl work "ContadorDeUnos.vhd"
+vhdl work "tb_ContadorDeUnos.vhd"

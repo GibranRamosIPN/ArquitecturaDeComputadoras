@@ -1,0 +1,29 @@
+Command line:
+   tb_SumadorRestador4Bits_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58932
+
+Thu Nov 08 23:01:42 2018
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 5331.42 Meg
+
+ Total Signals          : 12
+ Total Nets             : 23
+ Total Signal Drivers   : 17
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 15
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 388
+Total Line Count : 50
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 5331.42 Meg
+
+Thu Nov 08 23:02:12 2018
+

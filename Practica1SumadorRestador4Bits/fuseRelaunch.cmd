@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica1SumadorRestador4Bits/tb_SumadorRestador4Bits_isim_beh.exe" -prj "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica1SumadorRestador4Bits/tb_SumadorRestador4Bits_beh.prj" "work.tb_SumadorRestador4Bits" 

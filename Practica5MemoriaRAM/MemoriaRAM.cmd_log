@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica5MemoriaRAM/MemoriaRAM.xst" -ofn "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica5MemoriaRAM/MemoriaRAM.syr" 

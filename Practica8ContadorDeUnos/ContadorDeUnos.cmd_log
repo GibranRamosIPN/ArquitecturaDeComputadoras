@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica8ContadorDeUnos/ContadorDeUnos.xst" -ofn "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica8ContadorDeUnos/ContadorDeUnos.syr" 
+xst -intstyle ise -ifn "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica8ContadorDeUnos/ContadorDeUnos.xst" -ofn "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica8ContadorDeUnos/ContadorDeUnos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinesPractica8.ucf -p xc7a100t-csg324-3 ContadorDeUnos.ngc ContadorDeUnos.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ContadorDeUnos_map.ncd ContadorDeUnos.ngd ContadorDeUnos.pcf 
+par -w -intstyle ise -ol high -mt off ContadorDeUnos_map.ncd ContadorDeUnos.ncd ContadorDeUnos.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ContadorDeUnos.twx ContadorDeUnos.ncd -o ContadorDeUnos.twr ContadorDeUnos.pcf -ucf PinesPractica8.ucf 
+bitgen -intstyle ise -f ContadorDeUnos.ut ContadorDeUnos.ncd 

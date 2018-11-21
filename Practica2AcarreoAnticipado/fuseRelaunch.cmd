@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica2AcarreoAnticipado/tb_AcarreoAnticipado_isim_beh.exe" -prj "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica2AcarreoAnticipado/tb_AcarreoAnticipado_beh.prj" "work.tb_AcarreoAnticipado" 

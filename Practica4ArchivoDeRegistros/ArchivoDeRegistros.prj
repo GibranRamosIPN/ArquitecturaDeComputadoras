@@ -1,0 +1,6 @@
+vhdl work "Registro.vhd"
+vhdl work "Multiplexor2a1.vhd"
+vhdl work "Multiplexor.vhd"
+vhdl work "Demultiplexor.vhd"
+vhdl work "BarrelShifter.vhd"
+vhdl work "ArchivoDeRegistros.vhd"

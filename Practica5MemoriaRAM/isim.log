@@ -1,0 +1,44 @@
+ISim log file
+Running: E:\Conejito\Windows\Escuela\ArquitecturaDeComputadoras\Practicas Chidas Chidas\Practica5MemoriaRAM\tb_MemoriaRAM_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica5MemoriaRAM/tb_MemoriaRAM_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 75 ns: Error: already at the end of file, nothing to read
+at 75 ns: Error: Textio read:: called on empty string or line
+at 75 ns: Error: READ(STD_ULOGIC_VECTOR) Error: Character '?' read, expected STD_ULOGIC literal.
+at 75 ns: Error: Textio read:: called on empty string or line
+at 75 ns: Error: READ(STD_ULOGIC) Error: Character '?' read, expected STD_ULOGIC literal.
+at 75 ns: Error: Textio read:: called on empty string or line
+at 75 ns: Error: READ(STD_ULOGIC_VECTOR) Error: Character '?' read, expected STD_ULOGIC literal.
+at 75 ns(1), Instance /tb_memoriaram/uut/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 75 ns(1), Instance /tb_memoriaram/uut/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 85 ns: Error: already at the end of file, nothing to read
+at 85 ns: Error: Textio read:: called on empty string or line
+at 85 ns: Error: READ(STD_ULOGIC_VECTOR) Error: Character '?' read, expected STD_ULOGIC literal.
+at 85 ns: Error: Textio read:: called on empty string or line
+at 85 ns: Error: READ(STD_ULOGIC) Error: Character '?' read, expected STD_ULOGIC literal.
+at 85 ns: Error: Textio read:: called on empty string or line
+at 85 ns: Error: READ(STD_ULOGIC_VECTOR) Error: Character '?' read, expected STD_ULOGIC literal.
+at 95 ns: Error: already at the end of file, nothing to read
+at 95 ns: Error: Textio read:: called on empty string or line
+at 95 ns: Error: READ(STD_ULOGIC_VECTOR) Error: Character '?' read, expected STD_ULOGIC literal.
+at 95 ns: Error: Textio read:: called on empty string or line
+at 95 ns: Error: READ(STD_ULOGIC) Error: Character '?' read, expected STD_ULOGIC literal.
+at 95 ns: Error: Textio read:: called on empty string or line
+at 95 ns: Error: READ(STD_ULOGIC_VECTOR) Error: Character '?' read, expected STD_ULOGIC literal.
+at 105 ns: Error: already at the end of file, nothing to read
+at 105 ns: Error: Textio read:: called on empty string or line
+at 105 ns: Error: READ(STD_ULOGIC_VECTOR) Error: Character '?' read, expected STD_ULOGIC literal.
+at 105 ns: Error: Textio read:: called on empty string or line
+at 105 ns: Error: READ(STD_ULOGIC) Error: Character '?' read, expected STD_ULOGIC literal.
+at 105 ns: Error: Textio read:: called on empty string or line
+at 105 ns: Error: READ(STD_ULOGIC_VECTOR) Error: Character '?' read, expected STD_ULOGIC literal.

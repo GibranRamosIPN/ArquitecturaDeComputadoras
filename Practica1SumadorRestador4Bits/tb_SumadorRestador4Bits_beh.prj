@@ -1,0 +1,2 @@
+vhdl work "SumadorRestador4Bits.vhd"
+vhdl work "tb_SumadorRestador4Bits.vhd"

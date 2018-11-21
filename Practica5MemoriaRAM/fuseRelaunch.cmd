@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica5MemoriaRAM/tb_MemoriaRAM_isim_beh.exe" -prj "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica5MemoriaRAM/tb_MemoriaRAM_beh.prj" "work.tb_MemoriaRAM" 

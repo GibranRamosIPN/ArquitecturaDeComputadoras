@@ -1,0 +1,2 @@
+vhdl isim_temp "SumadorRestador4Bits.vhd"
+vhdl isim_temp "tb_SumadorRestador4Bits.vhd"

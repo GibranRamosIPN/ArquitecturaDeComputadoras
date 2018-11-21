@@ -1,0 +1,8 @@
+vhdl isim_temp "RegistroB.vhd"
+vhdl isim_temp "RegistroA.vhd"
+vhdl isim_temp "PackagePractica8ContadorUnos.vhd"
+vhdl isim_temp "DivisorDeFrecuencia.vhd"
+vhdl isim_temp "Decodificador.vhd"
+vhdl isim_temp "CartaASM.vhd"
+vhdl isim_temp "ContadorDeUnos.vhd"
+vhdl isim_temp "tb_ContadorDeUnos.vhd"

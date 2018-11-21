@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica4ArchivoDeRegistros/tb_ArchivoDeRegistros_isim_beh.exe" -prj "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica4ArchivoDeRegistros/tb_ArchivoDeRegistros_beh.prj" "work.tb_ArchivoDeRegistros" 

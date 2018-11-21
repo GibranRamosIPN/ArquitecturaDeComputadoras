@@ -1,0 +1,23 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica3ALU4Bits/tb_ALU4Bits_isim_beh.exe -prj E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica3ALU4Bits/tb_ALU4Bits_beh.prj work.tb_ALU4Bits 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica3ALU4Bits/Sumador1Bit.vhd" into library work
+Parsing VHDL file "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica3ALU4Bits/ALU1Bit.vhd" into library work
+Parsing VHDL file "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica3ALU4Bits/ALU4Bits.vhd" into library work
+Parsing VHDL file "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica3ALU4Bits/tb_ALU4Bits.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture practica3 of entity Sumador1Bit [sumador1bit_default]
+Compiling architecture practica3 of entity ALU1Bit [alu1bit_default]
+Compiling architecture practica3 of entity ALU4Bits [alu4bits_default]
+Compiling architecture practica3 of entity tb_alu4bits
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica3ALU4Bits/tb_ALU4Bits_isim_beh.exe
+Fuse Memory Usage: 29620 KB
+Fuse CPU Usage: 1156 ms

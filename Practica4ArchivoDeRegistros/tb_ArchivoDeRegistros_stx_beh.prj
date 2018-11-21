@@ -1,0 +1,7 @@
+vhdl isim_temp "Registro.vhd"
+vhdl isim_temp "Multiplexor2a1.vhd"
+vhdl isim_temp "Multiplexor.vhd"
+vhdl isim_temp "Demultiplexor.vhd"
+vhdl isim_temp "BarrelShifter.vhd"
+vhdl isim_temp "ArchivoDeRegistros.vhd"
+vhdl isim_temp "tb_ArchivoDeRegistros.vhd"

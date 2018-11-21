@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica8ContadorDeUnos/tb_ContadorDeUnos_isim_beh.exe" -prj "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica8ContadorDeUnos/tb_ContadorDeUnos_beh.prj" "work.tb_ContadorDeUnos" 
