@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/David/Desktop/simulador/ESCOMIPS_TB_isim_beh.exe" -prj "C:/Users/David/Desktop/simulador/ESCOMIPS_TB_beh.prj" "work.ESCOMIPS_TB" 

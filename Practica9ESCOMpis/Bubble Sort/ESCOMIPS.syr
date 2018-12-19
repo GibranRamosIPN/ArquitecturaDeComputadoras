@@ -1,0 +1,782 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.51 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.53 secs
+ 
+--> Reading design: ESCOMIPS.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ESCOMIPS.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ESCOMIPS"
+Output Format                      : NGC
+Target Device                      : xc7a100t-2-csg324
+
+---- Source Options
+Top Module Name                    : ESCOMIPS
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\David\Desktop\simulador\UNIDAD_CONTROL_PKG.vhd" into library work
+Parsing package <UNIDAD_CONTROL_PKG>.
+Parsing VHDL file "C:\Users\David\Desktop\simulador\REGISTRO_ESTADO.vhd" into library work
+Parsing entity <REGISTRO_ESTADO>.
+Parsing architecture <REGISTRO_ESTADO_ARCH> of entity <registro_estado>.
+Parsing VHDL file "C:\Users\David\Desktop\simulador\MICROCODIGO_OPERACION.vhd" into library work
+Parsing entity <MICROCODIGO_OPERACION>.
+Parsing architecture <MICROCODIGO_OPERACION_ARCH> of entity <microcodigo_operacion>.
+Parsing VHDL file "C:\Users\David\Desktop\simulador\MICROCODIGO_FUNCION.vhd" into library work
+Parsing entity <MICROCODIGO_FUNCION>.
+Parsing architecture <MICROCODIGO_FUNCION_ARCH> of entity <microcodigo_funcion>.
+Parsing VHDL file "C:\Users\David\Desktop\simulador\ESCOMIPS_PKG.vhd" into library work
+Parsing package <ESCOMIPS_PKG>.
+Parsing VHDL file "C:\Users\David\Desktop\simulador\DETECTOR_NIVEL.vhd" into library work
+Parsing entity <DETECTOR_NIVEL>.
+Parsing architecture <DETECTOR_NIVEL_ARCH> of entity <detector_nivel>.
+Parsing VHDL file "C:\Users\David\Desktop\simulador\DETECTOR_CONDICION.vhd" into library work
+Parsing entity <DETECTOR_CONDICION>.
+Parsing architecture <DETECTOR_CONDICION_ARCH> of entity <detector_condicion>.
+Parsing VHDL file "C:\Users\David\Desktop\simulador\DECODIFICADOR_INSTRUCCION.vhd" into library work
+Parsing entity <DECODIFICADOR_INSTRUCCION>.
+Parsing architecture <DECODIFICADOR_INSTRUCCION_ARCH> of entity <decodificador_instruccion>.
+Parsing VHDL file "C:\Users\David\Desktop\simulador\CONTROL.vhd" into library work
+Parsing entity <CONTROL>.
+Parsing architecture <CONTROL_ARCH> of entity <control>.
+Parsing VHDL file "C:\Users\David\Desktop\simulador\UNIDAD_CONTROL.vhd" into library work
+Parsing entity <UNIDAD_CONTROL>.
+Parsing architecture <UNIDAD_CONTROL_ARCH> of entity <unidad_control>.
+Parsing VHDL file "C:\Users\David\Desktop\simulador\PILA.vhd" into library work
+Parsing entity <PILA>.
+Parsing architecture <PILA_ARCH> of entity <pila>.
+Parsing VHDL file "C:\Users\David\Desktop\simulador\MEMORIA_PROGRAMA.vhd" into library work
+Parsing entity <MEMORIA_PROGRAMA>.
+Parsing architecture <MEMORIA_PROGRAMA_ARCH> of entity <memoria_programa>.
+Parsing VHDL file "C:\Users\David\Desktop\simulador\MEMORIA_DATOS.vhd" into library work
+Parsing entity <MEMORIA_DATOS>.
+Parsing architecture <MEMORIA_DATOS_ARCH> of entity <memoria_datos>.
+Parsing VHDL file "C:\Users\David\Desktop\simulador\ARCHIVO_REGISTROS.vhd" into library work
+Parsing entity <ARCHIVO_REGISTROS>.
+Parsing architecture <ARCHIVO_REGISTROS_ARCH> of entity <archivo_registros>.
+Parsing VHDL file "C:\Users\David\Desktop\simulador\ALU.vhd" into library work
+Parsing entity <ALU>.
+Parsing architecture <ALU_ARCH> of entity <alu>.
+Parsing VHDL file "C:\Users\David\Desktop\simulador\ESCOMIPS.vhd" into library work
+Parsing entity <ESCOMIPS>.
+Parsing architecture <ESCOMIPS_ARCH> of entity <escomips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <ESCOMIPS> (architecture <ESCOMIPS_ARCH>) from library <work>.
+
+Elaborating entity <ALU> (architecture <ALU_ARCH>) with generics from library <work>.
+
+Elaborating entity <ARCHIVO_REGISTROS> (architecture <ARCHIVO_REGISTROS_ARCH>) with generics from library <work>.
+
+Elaborating entity <MEMORIA_DATOS> (architecture <MEMORIA_DATOS_ARCH>) with generics from library <work>.
+
+Elaborating entity <MEMORIA_PROGRAMA> (architecture <MEMORIA_PROGRAMA_ARCH>) with generics from library <work>.
+
+Elaborating entity <PILA> (architecture <PILA_ARCH>) with generics from library <work>.
+
+Elaborating entity <UNIDAD_CONTROL> (architecture <UNIDAD_CONTROL_ARCH>) from library <work>.
+
+Elaborating entity <CONTROL> (architecture <CONTROL_ARCH>) from library <work>.
+
+Elaborating entity <DECODIFICADOR_INSTRUCCION> (architecture <DECODIFICADOR_INSTRUCCION_ARCH>) from library <work>.
+
+Elaborating entity <DETECTOR_CONDICION> (architecture <DETECTOR_CONDICION_ARCH>) from library <work>.
+
+Elaborating entity <DETECTOR_NIVEL> (architecture <DETECTOR_NIVEL_ARCH>) from library <work>.
+
+Elaborating entity <MICROCODIGO_FUNCION> (architecture <MICROCODIGO_FUNCION_ARCH>) with generics from library <work>.
+
+Elaborating entity <MICROCODIGO_OPERACION> (architecture <MICROCODIGO_OPERACION_ARCH>) with generics from library <work>.
+
+Elaborating entity <REGISTRO_ESTADO> (architecture <REGISTRO_ESTADO_ARCH>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ESCOMIPS>.
+    Related source file is "C:\Users\David\Desktop\simulador\ESCOMIPS.vhd".
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <ESCOMIPS> synthesized.
+
+Synthesizing Unit <ALU>.
+    Related source file is "C:\Users\David\Desktop\simulador\ALU.vhd".
+        N = 16
+    Found 16-bit 4-to-1 multiplexer for signal <n0216> created at line 33.
+    Found 16-bit 4-to-1 multiplexer for signal <n0218> created at line 33.
+    Found 16-bit 4-to-1 multiplexer for signal <n0220> created at line 33.
+    Found 16-bit 4-to-1 multiplexer for signal <n0222> created at line 33.
+    Found 16-bit 4-to-1 multiplexer for signal <n0224> created at line 33.
+    Found 16-bit 4-to-1 multiplexer for signal <n0226> created at line 33.
+    Found 16-bit 4-to-1 multiplexer for signal <n0228> created at line 33.
+    Found 16-bit 4-to-1 multiplexer for signal <n0230> created at line 33.
+    Found 16-bit 4-to-1 multiplexer for signal <n0232> created at line 33.
+    Found 16-bit 4-to-1 multiplexer for signal <n0234> created at line 33.
+    Found 16-bit 4-to-1 multiplexer for signal <n0236> created at line 33.
+    Found 16-bit 4-to-1 multiplexer for signal <n0238> created at line 33.
+    Found 16-bit 4-to-1 multiplexer for signal <n0240> created at line 33.
+    Found 16-bit 4-to-1 multiplexer for signal <n0242> created at line 33.
+    Found 16-bit 4-to-1 multiplexer for signal <n0244> created at line 33.
+    Found 16-bit 4-to-1 multiplexer for signal <res> created at line 33.
+    Summary:
+	inferred  32 Multiplexer(s).
+Unit <ALU> synthesized.
+
+Synthesizing Unit <ARCHIVO_REGISTROS>.
+    Related source file is "C:\Users\David\Desktop\simulador\ARCHIVO_REGISTROS.vhd".
+        TAM_REGISTRO = 16
+        TAM_DIRECCION = 4
+    Found 16-bit register for signal <archivo_registros<1>>.
+    Found 16-bit register for signal <archivo_registros<2>>.
+    Found 16-bit register for signal <archivo_registros<3>>.
+    Found 16-bit register for signal <archivo_registros<4>>.
+    Found 16-bit register for signal <archivo_registros<5>>.
+    Found 16-bit register for signal <archivo_registros<6>>.
+    Found 16-bit register for signal <archivo_registros<7>>.
+    Found 16-bit register for signal <archivo_registros<8>>.
+    Found 16-bit register for signal <archivo_registros<9>>.
+    Found 16-bit register for signal <archivo_registros<10>>.
+    Found 16-bit register for signal <archivo_registros<11>>.
+    Found 16-bit register for signal <archivo_registros<12>>.
+    Found 16-bit register for signal <archivo_registros<13>>.
+    Found 16-bit register for signal <archivo_registros<14>>.
+    Found 16-bit register for signal <archivo_registros<15>>.
+    Found 16-bit register for signal <archivo_registros<0>>.
+    Found 16-bit shifter logical left for signal <read_register_1[3]_shamt[3]_shift_left_1_OUT> created at line 43
+    Found 16-bit shifter logical right for signal <read_register_1[3]_shamt[3]_shift_right_20_OUT> created at line 46
+INFO:Xst:3019 - HDL ADVISOR - 256 flip-flops were inferred for signal <archivo_registros>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+INFO:Xst:3019 - HDL ADVISOR - 256 flip-flops were inferred for signal <archivo_registros>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+    Found 16-bit 16-to-1 multiplexer for signal <read_data_1> created at line 57.
+    Found 16-bit 16-to-1 multiplexer for signal <read_data_2> created at line 58.
+    Summary:
+	inferred 256 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+	inferred   2 Combinational logic shifter(s).
+Unit <ARCHIVO_REGISTROS> synthesized.
+
+Synthesizing Unit <MEMORIA_DATOS>.
+    Related source file is "C:\Users\David\Desktop\simulador\MEMORIA_DATOS.vhd".
+        TAM_DIRECCION = 12
+        TAM_DATO = 16
+    Found 4096x16-bit single-port RAM <Mram_MD> for signal <MD>.
+    Summary:
+	inferred   1 RAM(s).
+Unit <MEMORIA_DATOS> synthesized.
+
+Synthesizing Unit <MEMORIA_PROGRAMA>.
+    Related source file is "C:\Users\David\Desktop\simulador\MEMORIA_PROGRAMA.vhd".
+        TAM_DIRECCION = 16
+        TAM_INSTRUCCION = 25
+    Found 65536x25-bit Read Only RAM for signal <instruccion>
+    Summary:
+	inferred   1 RAM(s).
+Unit <MEMORIA_PROGRAMA> synthesized.
+
+Synthesizing Unit <PILA>.
+    Related source file is "C:\Users\David\Desktop\simulador\PILA.vhd".
+        TAM_DIRECCION = 16
+        TAM_PILA = 8
+    Found 16-bit register for signal <PC<1>>.
+    Found 16-bit register for signal <PC<2>>.
+    Found 16-bit register for signal <PC<3>>.
+    Found 16-bit register for signal <PC<4>>.
+    Found 16-bit register for signal <PC<5>>.
+    Found 16-bit register for signal <PC<6>>.
+    Found 16-bit register for signal <PC<7>>.
+    Found 16-bit register for signal <PC<0>>.
+    Found 3-bit register for signal <SP>.
+    Found 16-bit adder for signal <SP[2]_GND_61_o_add_21_OUT> created at line 51.
+    Found 3-bit adder for signal <SP[2]_GND_61_o_add_31_OUT> created at line 52.
+    Found 3-bit subtractor for signal <GND_61_o_GND_61_o_sub_42_OUT<2:0>> created at line 55.
+    Found 16-bit 8-to-1 multiplexer for signal <salida> created at line 60.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred 131 D-type flip-flop(s).
+	inferred  27 Multiplexer(s).
+Unit <PILA> synthesized.
+
+Synthesizing Unit <UNIDAD_CONTROL>.
+    Related source file is "C:\Users\David\Desktop\simulador\UNIDAD_CONTROL.vhd".
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <UNIDAD_CONTROL> synthesized.
+
+Synthesizing Unit <CONTROL>.
+    Related source file is "C:\Users\David\Desktop\simulador\CONTROL.vhd".
+    Summary:
+	inferred  13 Multiplexer(s).
+Unit <CONTROL> synthesized.
+
+Synthesizing Unit <DECODIFICADOR_INSTRUCCION>.
+    Related source file is "C:\Users\David\Desktop\simulador\DECODIFICADOR_INSTRUCCION.vhd".
+    Found 32x7-bit Read Only RAM for signal <_n0040>
+    Summary:
+	inferred   1 RAM(s).
+Unit <DECODIFICADOR_INSTRUCCION> synthesized.
+
+Synthesizing Unit <DETECTOR_CONDICION>.
+    Related source file is "C:\Users\David\Desktop\simulador\DETECTOR_CONDICION.vhd".
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <DETECTOR_CONDICION> synthesized.
+
+Synthesizing Unit <DETECTOR_NIVEL>.
+    Related source file is "C:\Users\David\Desktop\simulador\DETECTOR_NIVEL.vhd".
+    Found 1-bit register for signal <nclk>.
+    Found 1-bit register for signal <pclk>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <DETECTOR_NIVEL> synthesized.
+
+Synthesizing Unit <MICROCODIGO_FUNCION>.
+    Related source file is "C:\Users\David\Desktop\simulador\MICROCODIGO_FUNCION.vhd".
+        TAM_DIRECCION = 4
+        TAM_INSTRUCCION = 20
+    Found 16x20-bit Read Only RAM for signal <S>
+    Summary:
+	inferred   1 RAM(s).
+Unit <MICROCODIGO_FUNCION> synthesized.
+
+Synthesizing Unit <MICROCODIGO_OPERACION>.
+    Related source file is "C:\Users\David\Desktop\simulador\MICROCODIGO_OPERACION.vhd".
+        TAM_DIRECCION = 5
+        TAM_INSTRUCCION = 20
+    Found 32x20-bit Read Only RAM for signal <S>
+    Summary:
+	inferred   1 RAM(s).
+Unit <MICROCODIGO_OPERACION> synthesized.
+
+Synthesizing Unit <REGISTRO_ESTADO>.
+    Related source file is "C:\Users\David\Desktop\simulador\REGISTRO_ESTADO.vhd".
+    Found 4-bit register for signal <banderas_out>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <REGISTRO_ESTADO> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x20-bit single-port Read Only RAM                   : 1
+ 32x20-bit single-port Read Only RAM                   : 1
+ 32x7-bit single-port Read Only RAM                    : 1
+ 4096x16-bit single-port RAM                           : 1
+ 65536x25-bit single-port Read Only RAM                : 1
+# Adders/Subtractors                                   : 3
+ 16-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 3-bit subtractor                                      : 1
+# Registers                                            : 28
+ 1-bit register                                        : 2
+ 16-bit register                                       : 24
+ 3-bit register                                        : 1
+ 4-bit register                                        : 1
+# Multiplexers                                         : 88
+ 1-bit 2-to-1 multiplexer                              : 15
+ 16-bit 16-to-1 multiplexer                            : 2
+ 16-bit 2-to-1 multiplexer                             : 33
+ 16-bit 4-to-1 multiplexer                             : 16
+ 16-bit 8-to-1 multiplexer                             : 1
+ 17-bit 2-to-1 multiplexer                             : 16
+ 20-bit 2-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 2
+ 4-bit 2-to-1 multiplexer                              : 1
+ 5-bit 2-to-1 multiplexer                              : 1
+# Logic shifters                                       : 2
+ 16-bit shifter logical left                           : 1
+ 16-bit shifter logical right                          : 1
+# Xors                                                 : 82
+ 1-bit xor2                                            : 82
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <DECODIFICADOR_INSTRUCCION>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0040> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 7-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <op_code>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <DECODIFICADOR_INSTRUCCION> synthesized (advanced).
+
+Synthesizing (advanced) Unit <MEMORIA_DATOS>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_MD> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4096-word x 16-bit                  |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <wd>            | high     |
+    |     addrA          | connected to signal <direccion>     |          |
+    |     diA            | connected to signal <entrada>       |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <MEMORIA_DATOS> synthesized (advanced).
+
+Synthesizing (advanced) Unit <MEMORIA_PROGRAMA>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_instruccion> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 65536-word x 25-bit                 |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <direccion>     |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <instruccion>   |          |
+    -----------------------------------------------------------------------
+Unit <MEMORIA_PROGRAMA> synthesized (advanced).
+
+Synthesizing (advanced) Unit <MICROCODIGO_FUNCION>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_S> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 20-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <I>             |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <S>             |          |
+    -----------------------------------------------------------------------
+Unit <MICROCODIGO_FUNCION> synthesized (advanced).
+
+Synthesizing (advanced) Unit <MICROCODIGO_OPERACION>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_S> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 20-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <op_code>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <S>             |          |
+    -----------------------------------------------------------------------
+Unit <MICROCODIGO_OPERACION> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x20-bit single-port distributed Read Only RAM       : 1
+ 32x20-bit single-port distributed Read Only RAM       : 1
+ 32x7-bit single-port distributed Read Only RAM        : 1
+ 4096x16-bit single-port distributed RAM               : 1
+ 65536x25-bit single-port distributed Read Only RAM    : 1
+# Adders/Subtractors                                   : 3
+ 16-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 3-bit subtractor                                      : 1
+# Registers                                            : 393
+ Flip-Flops                                            : 393
+# Multiplexers                                         : 118
+ 1-bit 16-to-1 multiplexer                             : 32
+ 1-bit 2-to-1 multiplexer                              : 15
+ 16-bit 2-to-1 multiplexer                             : 33
+ 16-bit 4-to-1 multiplexer                             : 16
+ 16-bit 8-to-1 multiplexer                             : 1
+ 17-bit 2-to-1 multiplexer                             : 16
+ 20-bit 2-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 2
+ 4-bit 2-to-1 multiplexer                              : 1
+ 5-bit 2-to-1 multiplexer                              : 1
+# Logic shifters                                       : 2
+ 16-bit shifter logical left                           : 1
+ 16-bit shifter logical right                          : 1
+# Xors                                                 : 82
+ 1-bit xor2                                            : 82
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ESCOMIPS> ...
+
+Optimizing unit <ARCHIVO_REGISTROS> ...
+
+Optimizing unit <PILA> ...
+
+Optimizing unit <UNIDAD_CONTROL> ...
+
+Optimizing unit <ALU> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ESCOMIPS, actual ratio is 1.
+FlipFlop Pil/SP_0 has been replicated 5 time(s)
+FlipFlop Pil/SP_1 has been replicated 5 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 401
+ Flip-Flops                                            : 401
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : ESCOMIPS.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1091
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 15
+#      LUT2                        : 8
+#      LUT3                        : 117
+#      LUT4                        : 54
+#      LUT5                        : 117
+#      LUT6                        : 558
+#      MUXCY                       : 15
+#      MUXF7                       : 137
+#      MUXF8                       : 48
+#      VCC                         : 1
+#      XORCY                       : 16
+# FlipFlops/Latches                : 401
+#      FDC                         : 1
+#      FDC_1                       : 1
+#      FDCE                        : 397
+#      FDCE_1                      : 2
+# RAMS                             : 256
+#      RAM256X1S                   : 256
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 76
+#      IBUF                        : 2
+#      OBUF                        : 74
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             401  out of  126800     0%  
+ Number of Slice LUTs:                 1897  out of  63400     2%  
+    Number used as Logic:               873  out of  63400     1%  
+    Number used as Memory:             1024  out of  19000     5%  
+       Number used as RAM:             1024
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   2171
+   Number with an unused Flip Flop:    1770  out of   2171    81%  
+   Number with an unused LUT:           274  out of   2171    12%  
+   Number of fully used LUT-FF pairs:   127  out of   2171     5%  
+   Number of unique control sets:        27
+
+IO Utilization: 
+ Number of IOs:                          76
+ Number of bonded IOBs:                  76  out of    210    36%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | IBUF+BUFG              | 657   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 20.263ns (Maximum Frequency: 49.351MHz)
+   Minimum input arrival time before clock: 0.935ns
+   Maximum output required time after clock: 10.974ns
+   Maximum combinational path delay: 0.340ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 20.263ns (frequency: 49.351MHz)
+  Total number of paths / destination ports: 11857107988 / 3360
+-------------------------------------------------------------------------
+Delay:               10.131ns (Levels of Logic = 16)
+  Source:            Pil/PC_4_2 (FF)
+  Destination:       UniCont/Reg_Est/banderas_out_1 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk falling
+
+  Data Path: Pil/PC_4_2 to UniCont/Reg_Est/banderas_out_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.398   0.793  Pil/PC_4_2 (Pil/PC_4_2)
+     LUT6:I0->O            1   0.105   0.000  Pil/Mmux_salida_38 (Pil/Mmux_salida_38)
+     MUXF7:I1->O          54   0.308   0.914  Pil/Mmux_salida_2_f7_7 (pc_pila_2_OBUF)
+     LUT5:I0->O            1   0.105   0.357  MemProg/Mram_instruccion44114_SW0 (N49)
+     LUT6:I5->O            1   0.105   0.599  MemProg/Mram_instruccion44114 (MemProg/Mram_instruccion44113)
+     LUT6:I3->O           55   0.105   0.585  MemProg/Mram_instruccion441119 (instruccion_out_24_OBUF)
+     LUT6:I4->O            2   0.105   0.604  UniCont/Cont/Mmux_sdopc32_SW1 (N77)
+     LUT6:I3->O           64   0.105   0.587  Mmux_mux_read_reg_211 (mux_read_reg_2<0>)
+     LUT6:I4->O            1   0.105   0.000  ArchReg/mux27_51 (ArchReg/mux27_51)
+     MUXF7:I1->O           1   0.308   0.000  ArchReg/mux27_4_f7 (ArchReg/mux27_4_f7)
+     MUXF8:I0->O          17   0.244   0.447  ArchReg/mux27_2_f8 (read_data_2<5>)
+     LUT4:I3->O            8   0.105   0.490  ArLoUn/Mxor_bmux<5>_xo<0>1 (ArLoUn/bmux<5>)
+     LUT6:I4->O            1   0.105   0.599  ArLoUn/binvert_a[4]_OR_261_o1_SW4 (N53)
+     LUT5:I2->O            1   0.105   0.357  ArLoUn/binvert_a[5]_OR_262_o1 (ArLoUn/binvert_a[5]_OR_262_o)
+     LUT6:I5->O            5   0.105   0.803  ArLoUn/Mmux_res131 (salida_alu_6_OBUF)
+     LUT6:I1->O            1   0.105   0.357  ArLoUn/Zban2 (ArLoUn/Zban1)
+     LUT6:I5->O            1   0.105   0.000  ArLoUn/Zban3 (banderas<1>)
+     FDCE_1:D                  0.015          UniCont/Reg_Est/banderas_out_1
+    ----------------------------------------
+    Total                     10.131ns (2.638ns logic, 7.493ns route)
+                                       (26.0% logic, 74.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 401 / 401
+-------------------------------------------------------------------------
+Offset:              0.935ns (Levels of Logic = 1)
+  Source:            clr (PAD)
+  Destination:       ArchReg/archivo_registros_15_15 (FF)
+  Destination Clock: clk rising
+
+  Data Path: clr to ArchReg/archivo_registros_15_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           401   0.001   0.537  clr_IBUF (clr_IBUF)
+     FDCE:CLR                  0.397          ArchReg/archivo_registros_2_0
+    ----------------------------------------
+    Total                      0.935ns (0.398ns logic, 0.537ns route)
+                                       (42.5% logic, 57.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 283487324 / 68
+-------------------------------------------------------------------------
+Offset:              10.974ns (Levels of Logic = 18)
+  Source:            Pil/PC_4_2 (FF)
+  Destination:       salida_mem_datos<11> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: Pil/PC_4_2 to salida_mem_datos<11>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.398   0.793  Pil/PC_4_2 (Pil/PC_4_2)
+     LUT6:I0->O            1   0.105   0.000  Pil/Mmux_salida_38 (Pil/Mmux_salida_38)
+     MUXF7:I1->O          54   0.308   0.914  Pil/Mmux_salida_2_f7_7 (pc_pila_2_OBUF)
+     LUT5:I0->O            1   0.105   0.357  MemProg/Mram_instruccion44114_SW0 (N49)
+     LUT6:I5->O            1   0.105   0.599  MemProg/Mram_instruccion44114 (MemProg/Mram_instruccion44113)
+     LUT6:I3->O           55   0.105   0.585  MemProg/Mram_instruccion441119 (instruccion_out_24_OBUF)
+     LUT6:I4->O            2   0.105   0.604  UniCont/Cont/Mmux_sdopc32_SW1 (N77)
+     LUT6:I3->O           64   0.105   0.587  Mmux_mux_read_reg_211 (mux_read_reg_2<0>)
+     LUT6:I4->O            1   0.105   0.000  ArchReg/mux27_51 (ArchReg/mux27_51)
+     MUXF7:I1->O           1   0.308   0.000  ArchReg/mux27_4_f7 (ArchReg/mux27_4_f7)
+     MUXF8:I0->O          17   0.244   0.447  ArchReg/mux27_2_f8 (read_data_2<5>)
+     LUT4:I3->O            8   0.105   0.638  ArLoUn/Mxor_bmux<5>_xo<0>1 (ArLoUn/bmux<5>)
+     LUT6:I3->O            5   0.105   0.380  ArLoUn/binvert_a[6]_OR_263_o1_SW0 (N241)
+     LUT6:I5->O            2   0.105   0.604  ArLoUn/Mmux_res21_SW0 (N93)
+     LUT5:I2->O           21   0.105   0.468  ArLoUn/Mmux_res21 (salida_alu_10_OBUF)
+     LUT5:I4->O           32   0.105   0.469  Mmux_mux_alu_out21 (mux_alu_out<10>)
+     MUXF7:S->O            1   0.377   0.000  inst_LPM_MUX8_4_f7 (inst_LPM_MUX8_4_f7)
+     MUXF8:I0->O          10   0.244   0.389  inst_LPM_MUX8_2_f8 (salida_mem_datos_8_OBUF)
+     OBUF:I->O                 0.000          salida_mem_datos_8_OBUF (salida_mem_datos<8>)
+    ----------------------------------------
+    Total                     10.974ns (3.139ns logic, 7.835ns route)
+                                       (28.6% logic, 71.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               0.340ns (Levels of Logic = 2)
+  Source:            clk (PAD)
+  Destination:       clk_out (PAD)
+
+  Data Path: clk to clk_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.001   0.339  clk_IBUF (clk_out_OBUF)
+     OBUF:I->O                 0.000          clk_out_OBUF (clk_out)
+    ----------------------------------------
+    Total                      0.340ns (0.001ns logic, 0.339ns route)
+                                       (0.3% logic, 99.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   11.580|    8.487|   10.131|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 190.00 secs
+Total CPU time to Xst completion: 190.07 secs
+ 
+--> 
+
+Total memory usage is 5786792 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
+

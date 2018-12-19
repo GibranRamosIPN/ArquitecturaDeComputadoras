@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Jesus Hta Mtz\Desktop\ArquiProcesador\Final_ESCOMips_conDiv\ESCOMIPS.ncd
+OUTFILE=C:\Users\Jesus Hta Mtz\Desktop\ArquiProcesador\Final_ESCOMips_conDiv\ESCOMIPS.bit
+FAMILY=Artix7
+PART=xc7a100t-2csg324
+WORKINGDIR=C:\Users\Jesus Hta Mtz\Desktop\ArquiProcesador\Final_ESCOMips_conDiv
+LICENSE=WebPack
+USER_INFO=211310635_0_0_573

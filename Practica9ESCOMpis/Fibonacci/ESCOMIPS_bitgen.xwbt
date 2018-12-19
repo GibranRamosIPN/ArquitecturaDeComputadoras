@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Conejito\Windows\Escuela\ArquitecturaDeComputadoras\Proyecto\Fibonacci\ESCOMIPS.ncd
+OUTFILE=E:\Conejito\Windows\Escuela\ArquitecturaDeComputadoras\Proyecto\Fibonacci\ESCOMIPS.bit
+FAMILY=Artix7
+PART=xc7a100t-2csg324
+WORKINGDIR=E:\Conejito\Windows\Escuela\ArquitecturaDeComputadoras\Proyecto\Fibonacci
+LICENSE=WebPack
+USER_INFO=210844018_0_0_757

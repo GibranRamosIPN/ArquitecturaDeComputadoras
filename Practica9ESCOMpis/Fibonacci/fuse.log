@@ -1,0 +1,28 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/ESCOMIPS_TB_isim_beh.exe -prj C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/ESCOMIPS_TB_beh.prj work.ESCOMIPS_TB 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/UNIDAD_CONTROL_PKG.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/REGISTRO_ESTADO.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/MICROCODIGO_OPERACION.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/MICROCODIGO_FUNCION.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/ESCOMIPS_PKG.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/DETECTOR_NIVEL.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/DETECTOR_CONDICION.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/DECODIFICADOR_INSTRUCCION.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/CONTROL.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/UNIDAD_CONTROL.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/PILA.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/MEMORIA_PROGRAMA.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/MEMORIA_DATOS.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/DIVISOR.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/ARCHIVO_REGISTROS.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/ESCOMIPS.vhd" into library work
+Parsing VHDL file "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/ESCOMIPS_TB.vhd" into library work
+Starting static elaboration
+ERROR:HDLCompiler:1156 - "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/ESCOMIPS_TB.vhd" Line 19: Formal port <instruccion_out> does not exist in entity <ESCOMIPS>.  Please compare the definition of block <ESCOMIPS> to its component declaration and its instantion to detect the mismatch.
+ERROR:HDLCompiler:1156 - "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/ESCOMIPS_TB.vhd" Line 20: Formal port <pc_pila> does not exist in entity <ESCOMIPS>.  Please compare the definition of block <ESCOMIPS> to its component declaration and its instantion to detect the mismatch.
+ERROR:HDLCompiler:1156 - "C:/Users/xh-bt/Desktop/Practicas Arqui/Proyecto/ESCOMips FIBO/Final_ESCOMips_conDiv/ESCOMIPS_TB.vhd" Line 22: Formal port <salida_mem_datos> does not exist in entity <ESCOMIPS>.  Please compare the definition of block <ESCOMIPS> to its component declaration and its instantion to detect the mismatch.
+ERROR:Simulator:777 - Static elaboration of top level VHDL design unit escomips_tb in library work failed

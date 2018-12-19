@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Dec 07 06:56:41 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk_out" LOCATE = SITE "J17" LEVEL 1;
+COMP "pc_pila<3>" LOCATE = SITE "T16" LEVEL 1;
+COMP "pc_pila<4>" LOCATE = SITE "V15" LEVEL 1;
+COMP "pc_pila<1>" LOCATE = SITE "T15" LEVEL 1;
+COMP "pc_pila<2>" LOCATE = SITE "U14" LEVEL 1;
+COMP "pc_pila<0>" LOCATE = SITE "V16" LEVEL 1;
+COMP "pc_pila<7>" LOCATE = SITE "V11" LEVEL 1;
+COMP "pc_pila<5>" LOCATE = SITE "V14" LEVEL 1;
+COMP "pc_pila<6>" LOCATE = SITE "V12" LEVEL 1;
+COMP "salida_alu<0>" LOCATE = SITE "H17" LEVEL 1;
+COMP "salida_alu<3>" LOCATE = SITE "N14" LEVEL 1;
+COMP "salida_alu<4>" LOCATE = SITE "R18" LEVEL 1;
+COMP "salida_alu<1>" LOCATE = SITE "K15" LEVEL 1;
+COMP "salida_alu<2>" LOCATE = SITE "J13" LEVEL 1;
+COMP "salida_alu<7>" LOCATE = SITE "U16" LEVEL 1;
+COMP "salida_alu<5>" LOCATE = SITE "V17" LEVEL 1;
+COMP "salida_alu<6>" LOCATE = SITE "U17" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "clr" LOCATE = SITE "J15" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,53 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/David/Desktop/simulador/ESCOMIPS_TB_isim_beh.exe -prj C:/Users/David/Desktop/simulador/ESCOMIPS_TB_beh.prj work.ESCOMIPS_TB 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/David/Desktop/simulador/UNIDAD_CONTROL_PKG.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/REGISTRO_ESTADO.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/MICROCODIGO_OPERACION.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/MICROCODIGO_FUNCION.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/ESCOMIPS_PKG.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/DETECTOR_NIVEL.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/DETECTOR_CONDICION.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/DECODIFICADOR_INSTRUCCION.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/CONTROL.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/UNIDAD_CONTROL.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/PILA.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/MEMORIA_PROGRAMA.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/MEMORIA_DATOS.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/ARCHIVO_REGISTROS.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/ESCOMIPS.vhd" into library work
+Parsing VHDL file "C:/Users/David/Desktop/simulador/ESCOMIPS_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package escomips_pkg
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package unidad_control_pkg
+Compiling architecture alu_arch of entity ALU [\ALU(16)\]
+Compiling architecture archivo_registros_arch of entity ARCHIVO_REGISTROS [\ARCHIVO_REGISTROS(16,4)\]
+Compiling architecture memoria_datos_arch of entity MEMORIA_DATOS [\MEMORIA_DATOS(12,16)\]
+Compiling architecture memoria_programa_arch of entity MEMORIA_PROGRAMA [\MEMORIA_PROGRAMA(16,25)\]
+Compiling architecture pila_arch of entity PILA [\PILA(16,8)\]
+Compiling architecture control_arch of entity CONTROL [control_default]
+Compiling architecture decodificador_instruccion_arch of entity DECODIFICADOR_INSTRUCCION [decodificador_instruccion_defaul...]
+Compiling architecture detector_condicion_arch of entity DETECTOR_CONDICION [detector_condicion_default]
+Compiling architecture detector_nivel_arch of entity DETECTOR_NIVEL [detector_nivel_default]
+Compiling architecture microcodigo_funcion_arch of entity MICROCODIGO_FUNCION [\MICROCODIGO_FUNCION(4,20)\]
+Compiling architecture microcodigo_operacion_arch of entity MICROCODIGO_OPERACION [\MICROCODIGO_OPERACION(5,20)\]
+Compiling architecture registro_estado_arch of entity REGISTRO_ESTADO [registro_estado_default]
+Compiling architecture unidad_control_arch of entity UNIDAD_CONTROL [unidad_control_default]
+Compiling architecture escomips_arch of entity ESCOMIPS [escomips_default]
+Compiling architecture behavior of entity escomips_tb
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 37 VHDL Units
+Built simulation executable C:/Users/David/Desktop/simulador/ESCOMIPS_TB_isim_beh.exe
+Fuse Memory Usage: 39456 KB
+Fuse CPU Usage: 2421 ms

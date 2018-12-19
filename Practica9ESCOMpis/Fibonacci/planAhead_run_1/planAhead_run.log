@@ -1,0 +1,112 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/pa.fromHdl.tcl}
+# create_project -name ProyectoFinal -dir "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/planAhead_run_1" -part xc7a100tcsg324-2
+create_project: Time (s): elapsed = 00:00:31 . Memory (MB): peak = 370.648 ; gain = 81.156
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "FINAL_PINES.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/FINAL_PINES.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {UNIDAD_CONTROL_PKG.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {REGISTRO_ESTADO.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MICROCODIGO_OPERACION.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MICROCODIGO_FUNCION.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ESCOMIPS_PKG.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DETECTOR_NIVEL.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DETECTOR_CONDICION.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DECODIFICADOR_INSTRUCCION.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {CONTROL.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {UNIDAD_CONTROL.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PILA.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MEMORIA_PROGRAMA.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MEMORIA_DATOS.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DIVISOR.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ARCHIVO_REGISTROS.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ALU.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ESCOMIPS.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top ESCOMIPS $srcset
+# add_files [list {FINAL_PINES.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc7a100tcsg324-2
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/UNIDAD_CONTROL_PKG.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/REGISTRO_ESTADO.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/MICROCODIGO_OPERACION.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/MICROCODIGO_FUNCION.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/ESCOMIPS_PKG.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/DETECTOR_NIVEL.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/DETECTOR_CONDICION.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/DECODIFICADOR_INSTRUCCION.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/CONTROL.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/UNIDAD_CONTROL.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/PILA.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/MEMORIA_PROGRAMA.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/MEMORIA_DATOS.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/DIVISOR.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/ARCHIVO_REGISTROS.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/ESCOMIPS.vhd" into library work
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/FINAL_PINES.ucf]
+Finished Parsing UCF File [C:/Users/Jesus Hta Mtz/Desktop/ArquiProcesador/Final_ESCOMips_conDiv/FINAL_PINES.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: fcfad320
+open_rtl_design: Time (s): elapsed = 00:04:10 . Memory (MB): peak = 858.719 ; gain = 487.297
+update_compile_order -fileset sim_1
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Jun 15 18:57:37 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

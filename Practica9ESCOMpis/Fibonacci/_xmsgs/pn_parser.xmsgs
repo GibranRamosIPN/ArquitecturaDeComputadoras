@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/ALU.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/ARCHIVO_REGISTROS.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/CONTROL.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/DECODIFICADOR_INSTRUCCION.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/DETECTOR_CONDICION.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/DETECTOR_NIVEL.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/DIVISOR.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/ESCOMIPS.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/ESCOMIPS_PKG.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/MEMORIA_DATOS.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/MEMORIA_PROGRAMA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/MICROCODIGO_FUNCION.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/MICROCODIGO_OPERACION.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/PILA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/REGISTRO_ESTADO.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/UNIDAD_CONTROL.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Proyecto/Fibonacci/UNIDAD_CONTROL_PKG.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+
