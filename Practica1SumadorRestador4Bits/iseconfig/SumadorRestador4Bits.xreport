@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-11-08T22:55:34</DateModified>
+  <DateModified>2018-12-18T21:11:00</DateModified>
   <ModuleName>SumadorRestador4Bits</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica1SumadorRestador4Bits/iseconfig/SumadorRestador4Bits.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica1SumadorRestador4Bits</ImplementationReportsDirectory>
+  <SavedFilePath>E:/Conejito/Windows/Escuela/GitHub/ArquitecturaDeComputadoras/Practica1SumadorRestador4Bits/iseconfig/SumadorRestador4Bits.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/Conejito/Windows/Escuela/GitHub/ArquitecturaDeComputadoras/Practica1SumadorRestador4Bits\</ImplementationReportsDirectory>
   <DateInitialized>2018-11-08T22:55:34</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

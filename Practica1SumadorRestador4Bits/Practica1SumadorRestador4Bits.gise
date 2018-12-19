@@ -30,6 +30,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="SumadorRestador4Bits.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="SumadorRestador4Bits.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="SumadorRestador4Bits.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="SumadorRestador4Bits_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="SumadorRestador4Bits_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SumadorRestador4Bits_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
@@ -57,10 +58,15 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1541739498" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1541739498">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1541739690" xil_pn:in_ck="508159687699019455" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1541739690">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="SumadorRestador4Bits.vhd"/>
       <outfile xil_pn:name="tb_SumadorRestador4Bits.vhd"/>
     </transform>
@@ -79,13 +85,22 @@
     <transform xil_pn:end_ts="1541739694" xil_pn:in_ck="508159687699019455" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1541739694">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="SumadorRestador4Bits.vhd"/>
       <outfile xil_pn:name="tb_SumadorRestador4Bits.vhd"/>
     </transform>
     <transform xil_pn:end_ts="1541739699" xil_pn:in_ck="508159687699019455" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8100896069835494042" xil_pn:start_ts="1541739694">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
@@ -96,11 +111,14 @@
     <transform xil_pn:end_ts="1541739699" xil_pn:in_ck="-4244063060207258423" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1572054629402614531" xil_pn:start_ts="1541739699">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="tb_SumadorRestador4Bits_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1541739445" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1541739445">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1541739599" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3412046338774085136" xil_pn:start_ts="1541739599">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -126,7 +144,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541739653" xil_pn:in_ck="-4879217410957646027" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="6790094687136908789" xil_pn:start_ts="1541739627">
+    <transform xil_pn:end_ts="1545189220" xil_pn:in_ck="-4879217410957646027" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="6790094687136908789" xil_pn:start_ts="1545189182">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="SumadorRestador4Bits.lso"/>
