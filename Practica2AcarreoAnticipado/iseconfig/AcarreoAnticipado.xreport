@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-11-08T23:18:44</DateModified>
+  <DateModified>2018-12-18T21:20:29</DateModified>
   <ModuleName>AcarreoAnticipado</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica2AcarreoAnticipado/iseconfig/AcarreoAnticipado.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica2AcarreoAnticipado</ImplementationReportsDirectory>
+  <SavedFilePath>E:/Conejito/Windows/Escuela/GitHub/ArquitecturaDeComputadoras/Practica2AcarreoAnticipado/iseconfig/AcarreoAnticipado.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/Conejito/Windows/Escuela/GitHub/ArquitecturaDeComputadoras/Practica2AcarreoAnticipado\</ImplementationReportsDirectory>
   <DateInitialized>2018-11-08T23:18:34</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

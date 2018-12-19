@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.34 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.60 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.34 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.60 secs
  
 --> Reading design: AcarreoAnticipado.prj
 
@@ -105,7 +105,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "E:\Conejito\Windows\Escuela\ArquitecturaDeComputadoras\Practicas Chidas Chidas\Practica2AcarreoAnticipado\AcarreoAnticipado.vhd" into library work
+Parsing VHDL file "E:\Conejito\Windows\Escuela\GitHub\ArquitecturaDeComputadoras\Practica2AcarreoAnticipado\AcarreoAnticipado.vhd" into library work
 Parsing entity <AcarreoAnticipado>.
 Parsing architecture <Practica2> of entity <acarreoanticipado>.
 
@@ -120,7 +120,7 @@ Elaborating entity <AcarreoAnticipado> (architecture <Practica2>) with generics 
 =========================================================================
 
 Synthesizing Unit <AcarreoAnticipado>.
-    Related source file is "E:\Conejito\Windows\Escuela\ArquitecturaDeComputadoras\Practicas Chidas Chidas\Practica2AcarreoAnticipado\AcarreoAnticipado.vhd".
+    Related source file is "E:\Conejito\Windows\Escuela\GitHub\ArquitecturaDeComputadoras\Practica2AcarreoAnticipado\AcarreoAnticipado.vhd".
         n = 4
     Summary:
 Unit <AcarreoAnticipado> synthesized.
@@ -282,12 +282,12 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 21.00 secs
-Total CPU time to Xst completion: 20.50 secs
+Total REAL time to Xst completion: 24.00 secs
+Total CPU time to Xst completion: 23.72 secs
  
 --> 
 
-Total memory usage is 4654332 kilobytes
+Total memory usage is 4607480 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

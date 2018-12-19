@@ -4,11 +4,13 @@ ArquitecturaDeComputadoras
 > Materia: Arquitectura de computadoras <br>
 > Profesor: Vega García Nayeli
 
-## Práctica 1 : Sumador de 4 Bits
+## Práctica 1 : Sumador/Restador de 4 Bits
 
 Sumandor y restador de 2 números en binario de longitud de 4 bits.
 
+## Práctica 2 : Sumador/Restador de 4 bits con acarreo anticipado
 
+Sumandor y restador de 2 números en binario de longitud de 4 bits con bit de acarreo anticipado.
 ```
  Código: $ ./preview_github_readme README.md
 ```

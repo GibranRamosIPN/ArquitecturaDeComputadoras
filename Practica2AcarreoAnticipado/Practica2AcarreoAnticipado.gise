@@ -30,6 +30,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="AcarreoAnticipado.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="AcarreoAnticipado.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="AcarreoAnticipado.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="AcarreoAnticipado_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="AcarreoAnticipado_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="AcarreoAnticipado_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
@@ -47,10 +48,15 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1541740765" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1541740765">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1541740791" xil_pn:in_ck="457042382872668391" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1541740791">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="AcarreoAnticipado.vhd"/>
       <outfile xil_pn:name="tb_AcarreoAnticipado.vhd"/>
     </transform>
@@ -69,13 +75,21 @@
     <transform xil_pn:end_ts="1541740791" xil_pn:in_ck="457042382872668391" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1541740791">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="AcarreoAnticipado.vhd"/>
       <outfile xil_pn:name="tb_AcarreoAnticipado.vhd"/>
     </transform>
     <transform xil_pn:end_ts="1541740795" xil_pn:in_ck="457042382872668391" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4628557120598728501" xil_pn:start_ts="1541740791">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
@@ -86,11 +100,13 @@
     <transform xil_pn:end_ts="1541740796" xil_pn:in_ck="6072740150156104797" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7999430715644310002" xil_pn:start_ts="1541740795">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="tb_AcarreoAnticipado_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1541740725" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1541740725">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1541740725" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8134002435242680256" xil_pn:start_ts="1541740725">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -116,7 +132,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541740750" xil_pn:in_ck="7300652056517108777" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="518208954104811589" xil_pn:start_ts="1541740725">
+    <transform xil_pn:end_ts="1545189670" xil_pn:in_ck="7300652056517108777" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="518208954104811589" xil_pn:start_ts="1545189639">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="AcarreoAnticipado.lso"/>
