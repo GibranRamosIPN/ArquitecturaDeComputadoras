@@ -52,13 +52,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541744531" xil_pn:in_ck="2736095342235566690" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1541744531">
+    <transform xil_pn:end_ts="1545190969" xil_pn:in_ck="2736095342235566690" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1545190969">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ALU1Bit.vhd"/>
       <outfile xil_pn:name="ALU4Bits.vhd"/>
       <outfile xil_pn:name="Sumador1Bit.vhd"/>
@@ -80,7 +76,6 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
@@ -93,6 +88,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
@@ -106,6 +102,7 @@
     <transform xil_pn:end_ts="1541795382" xil_pn:in_ck="-1529719631966299188" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5219646512507034125" xil_pn:start_ts="1541795381">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
@@ -141,7 +138,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541797801" xil_pn:in_ck="-2446917437618763083" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="5058204176606359093" xil_pn:start_ts="1541797771">
+    <transform xil_pn:end_ts="1545191025" xil_pn:in_ck="-2446917437618763083" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="5058204176606359093" xil_pn:start_ts="1545190976">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU4Bits.lso"/>

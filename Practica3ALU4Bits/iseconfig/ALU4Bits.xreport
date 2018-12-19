@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-11-09T15:02:29</DateModified>
+  <DateModified>2018-12-18T21:42:33</DateModified>
   <ModuleName>ALU4Bits</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica3ALU4Bits/iseconfig/ALU4Bits.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica3ALU4Bits\</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2018-12-18T21:41:15</SummaryTimeStamp>
+  <SavedFilePath>E:/Conejito/Windows/Escuela/GitHub/ArquitecturaDeComputadoras/Practica3ALU4Bits/iseconfig/ALU4Bits.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/Conejito/Windows/Escuela/GitHub/ArquitecturaDeComputadoras/Practica3ALU4Bits\</ImplementationReportsDirectory>
   <DateInitialized>2018-11-09T14:28:48</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

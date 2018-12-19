@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.41 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.22 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.41 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.24 secs
  
 --> Reading design: ALU4Bits.prj
 
@@ -105,13 +105,13 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "E:\Conejito\Windows\Escuela\ArquitecturaDeComputadoras\Practicas\Practica3ALU4Bits\Sumador1Bit.vhd" into library work
+Parsing VHDL file "E:\Conejito\Windows\Escuela\GitHub\ArquitecturaDeComputadoras\Practica3ALU4Bits\Sumador1Bit.vhd" into library work
 Parsing entity <Sumador1Bit>.
 Parsing architecture <Practica3> of entity <sumador1bit>.
-Parsing VHDL file "E:\Conejito\Windows\Escuela\ArquitecturaDeComputadoras\Practicas\Practica3ALU4Bits\ALU1Bit.vhd" into library work
+Parsing VHDL file "E:\Conejito\Windows\Escuela\GitHub\ArquitecturaDeComputadoras\Practica3ALU4Bits\ALU1Bit.vhd" into library work
 Parsing entity <ALU1Bit>.
 Parsing architecture <Practica3> of entity <alu1bit>.
-Parsing VHDL file "E:\Conejito\Windows\Escuela\ArquitecturaDeComputadoras\Practicas\Practica3ALU4Bits\ALU4Bits.vhd" into library work
+Parsing VHDL file "E:\Conejito\Windows\Escuela\GitHub\ArquitecturaDeComputadoras\Practica3ALU4Bits\ALU4Bits.vhd" into library work
 Parsing entity <ALU4Bits>.
 Parsing architecture <Practica3> of entity <alu4bits>.
 
@@ -130,19 +130,19 @@ Elaborating entity <Sumador1Bit> (architecture <Practica3>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <ALU4Bits>.
-    Related source file is "E:\Conejito\Windows\Escuela\ArquitecturaDeComputadoras\Practicas\Practica3ALU4Bits\ALU4Bits.vhd".
+    Related source file is "E:\Conejito\Windows\Escuela\GitHub\ArquitecturaDeComputadoras\Practica3ALU4Bits\ALU4Bits.vhd".
     Summary:
 Unit <ALU4Bits> synthesized.
 
 Synthesizing Unit <ALU1Bit>.
-    Related source file is "E:\Conejito\Windows\Escuela\ArquitecturaDeComputadoras\Practicas\Practica3ALU4Bits\ALU1Bit.vhd".
-    Found 1-bit 4-to-1 multiplexer for signal <res> created at line 14.
+    Related source file is "E:\Conejito\Windows\Escuela\GitHub\ArquitecturaDeComputadoras\Practica3ALU4Bits\ALU1Bit.vhd".
+    Found 1-bit 4-to-1 multiplexer for signal <res> created at line 13.
     Summary:
 	inferred   2 Multiplexer(s).
 Unit <ALU1Bit> synthesized.
 
 Synthesizing Unit <Sumador1Bit>.
-    Related source file is "E:\Conejito\Windows\Escuela\ArquitecturaDeComputadoras\Practicas\Practica3ALU4Bits\Sumador1Bit.vhd".
+    Related source file is "E:\Conejito\Windows\Escuela\GitHub\ArquitecturaDeComputadoras\Practica3ALU4Bits\Sumador1Bit.vhd".
     Summary:
 Unit <Sumador1Bit> synthesized.
 
@@ -310,12 +310,12 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 24.00 secs
-Total CPU time to Xst completion: 24.05 secs
+Total REAL time to Xst completion: 40.00 secs
+Total CPU time to Xst completion: 40.18 secs
  
 --> 
 
-Total memory usage is 4653236 kilobytes
+Total memory usage is 4637688 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

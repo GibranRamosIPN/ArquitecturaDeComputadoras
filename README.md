@@ -11,6 +11,24 @@ Sumandor y restador de 2 números en binario de longitud de 4 bits.
 ## Práctica 2 : Sumador/Restador de 4 bits con acarreo anticipado
 
 Sumandor y restador de 2 números en binario de longitud de 4 bits con bit de acarreo anticipado.
+
+## Práctica 3 : ALU de 4 bits
+
+ALU de 4 bits realizada por 3 distintos modulos para lograr su correcto funcionamiento.
+
+<ol>
+    <li>ALU 4 bits:
+        <ol>
+            <li>ALU 1 bit:
+                <ol>
+                    <li> Sumador 1 bit
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+</ol>
+
 ```
  Código: $ ./preview_github_readme README.md
 ```

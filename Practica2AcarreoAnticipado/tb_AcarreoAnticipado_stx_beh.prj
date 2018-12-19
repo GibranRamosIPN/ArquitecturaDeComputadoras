@@ -1,0 +1,2 @@
+vhdl isim_temp "AcarreoAnticipado.vhd"
+vhdl isim_temp "tb_AcarreoAnticipado.vhd"

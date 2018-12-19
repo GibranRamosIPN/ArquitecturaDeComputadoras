@@ -1,7 +1,6 @@
 ----------------------------------------------------------------------------------
 -- Team Members:
 -- 	Castellanos Castro David
--- 	Gómez Cervantes Eliezer Alberto
 -- Teacher Name: Vega García Nayeli
 ----------------------------------------------------------------------------------
 

@@ -1,2 +1,4 @@
 xst -intstyle ise -ifn "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica3ALU4Bits/ALU4Bits.xst" -ofn "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas Chidas Chidas/Practica3ALU4Bits/ALU4Bits.syr" 
 xst -intstyle ise -ifn "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica3ALU4Bits/ALU4Bits.xst" -ofn "E:/Conejito/Windows/Escuela/ArquitecturaDeComputadoras/Practicas/Practica3ALU4Bits/ALU4Bits.syr" 
+xst -intstyle ise -ifn "E:/Conejito/Windows/Escuela/GitHub/ArquitecturaDeComputadoras/Practica3ALU4Bits/ALU4Bits.xst" -ofn "E:/Conejito/Windows/Escuela/GitHub/ArquitecturaDeComputadoras/Practica3ALU4Bits/ALU4Bits.syr" 
+xst -intstyle ise -ifn "E:/Conejito/Windows/Escuela/GitHub/ArquitecturaDeComputadoras/Practica3ALU4Bits/ALU4Bits.xst" -ofn "E:/Conejito/Windows/Escuela/GitHub/ArquitecturaDeComputadoras/Practica3ALU4Bits/ALU4Bits.syr" 
