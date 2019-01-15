@@ -13,7 +13,6 @@ Sumandor y restador de 2 números en binario de longitud de 4 bits.
 Sumandor y restador de 2 números en binario de longitud de 4 bits con bit de acarreo anticipado.
 
 ## Práctica 3 : ALU de 4 bits
-
 ALU de 4 bits realizada por 3 distintos modulos para lograr su correcto funcionamiento.
 
 <ol>
@@ -29,34 +28,20 @@ ALU de 4 bits realizada por 3 distintos modulos para lograr su correcto funciona
     </li>
 </ol>
 
-```
- Código: $ ./preview_github_readme README.md
-```
+## Práctica 4 : Archivo de registros
+Archivo en el cual se manejaran los registros de nuestro procesador, asignando un espacio en memoria del mismo archivo para un arreglo de registros a los cuales seran accesados por una ubicacion de registro.
 
-`Comandos`
+## Práctica 5 : Memoria RAM (Memoria de datos)
+Memoria donde se guardaran los datos ocupados por los registros, son valores que se guardan dentro de un espacio fisico para ser almacenados y que los registros puedan acceder a ellos cuando se les indique.
 
-### Tres commits
+## Práctica 6 : Memoria ROM (Memoria de programa)
+Memoria donde se guarda las lineas de codigo de nuestro programa(s) a ejecutar, sólo es posible leer dicha memoria o dichas lineas de código con un contador re programa, el cual se estará moviendo en las lineas de código, esto hará que nuestro programa funcione correctamente.
 
-- Agregar dos archivos en una rama.
-- Agregar un archivo diferente en otra rama distina.
-- Mezclar ambas ramas para unirlas al master.
+## Práctica 7 : Pila
+El contador de programa puede tener más de una instancia, ya que en algunas funciones (subrutinas) se tiene que reiniciar el contador pero en otra posicion de nuestro código de programa.
 
-### Edición del README.md
+## Práctica 8 : Contador de unos
+Con ayuda de todo lo aprendio y practicado, se realizó un programa que cuente los unos (bits en estado de exitación) que sean ingresados.
 
-Se puede apreciar el distinto tipo de texto que se realiza en el README del proyecto.
-
-# Tabla de pruebas
-
-| Prueba  | ¿Relaizada? |
-|-------- |-------|
-|  Commits   |   Si   |
-|  Merges   |   Si   |
-|  Conflicts   |   No   |
-|  Push   |   Si   |
-| <ol><li>Pájaro</li><li>Zorro</li><li>Pez</li></ol>   |   Si   |
-|  1. Uno <br /> 2. dos    |   Si   |
-
-- [x] Lista
-- [x] de
-- [x] tareas
-- [ ] Checkboxes
+## Práctica 9 : Procesador ESCOMpis
+Reuniendo todas las prácticas se realizó un microprocesador llamado ESCOMpis. ` Vease en la imagen dentro de la carpeta para apreciar la estructura de dicho procesador ` .
